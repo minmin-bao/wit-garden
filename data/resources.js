@@ -2,7 +2,7 @@ const RESOURCES = [
   {
     title: "Pynk",
     author: "Janelle Monáe",
-    cover: "https://upload.wikimedia.org/wikipedia/en/6/69/Janelle_Mon%C3%A1e_-_Pynk.png",
+    cover: "",    // add cover image to assets/covers/ and put filename here
     url: "https://www.youtube.com/watch?v=PaGOGVBDEWw",
     tag: "song",
     description: "A love letter to femininity. Impossible not to feel good.",
@@ -11,7 +11,7 @@ const RESOURCES = [
   {
     title: "Kindred",
     author: "Octavia Butler",
-    cover: "https://covers.openlibrary.org/b/isbn/9780807083697-L.jpg",
+    cover: "kindred.jpg",
     url: "https://www.goodreads.com/book/show/60931.Kindred",
     tag: "book",
     description: "Time travel, slavery, and power. One of the most important novels ever written.",
@@ -20,7 +20,7 @@ const RESOURCES = [
   {
     title: "Everything Everywhere All at Once",
     author: "dir. Daniels",
-    cover: "https://upload.wikimedia.org/wikipedia/en/b/b8/Everything_Everywhere_All_at_Once.jpg",
+    cover: "",
     url: "https://a24films.com/films/everything-everywhere-all-at-once",
     tag: "movie",
     description: "Chaotic and tender. Cried three times.",
@@ -29,7 +29,7 @@ const RESOURCES = [
   {
     title: "The Left Hand of Darkness",
     author: "Ursula K. Le Guin",
-    cover: "https://covers.openlibrary.org/b/isbn/9780441478125-L.jpg",
+    cover: "left-hand-of-darkness.jpg",
     url: "https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness",
     tag: "book",
     description: "Genre-defining sci-fi about gender, society, and loyalty.",
@@ -38,7 +38,7 @@ const RESOURCES = [
   {
     title: "Portrait of a Lady on Fire",
     author: "dir. Céline Sciamma",
-    cover: "https://upload.wikimedia.org/wikipedia/en/5/5f/Portrait_of_a_Lady_on_Fire_film.png",
+    cover: "",
     url: "https://www.imdb.com/title/tt8613070/",
     tag: "movie",
     description: "Every frame looks like a painting. Devastating.",
@@ -47,13 +47,13 @@ const RESOURCES = [
   {
     title: "Dirty Computer",
     author: "Janelle Monáe",
-    cover: "https://upload.wikimedia.org/wikipedia/en/3/3b/Dirty_Computer.png",
+    cover: "",
     url: "https://music.apple.com/us/album/dirty-computer/1358097901",
     tag: "album",
     description: "A sci-fi concept album about identity, freedom, and being a glorious dirty computer.",
     added_by: "Honey"
   },
   // --- copy a block above, fill in your rec, and add it here! ---
-  // tip: find a cover image anywhere online, right-click → copy image address → paste as the cover URL
+  // to add a cover: save the image to assets/covers/ and put the filename in the cover field
   // available tags: song, album, movie, show, book, podcast, recipe, other
 ];

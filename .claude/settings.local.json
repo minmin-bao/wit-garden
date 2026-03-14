@@ -3,7 +3,9 @@
     "allow": [
       "Bash(open:*)",
       "Bash(gh auth:*)",
-      "Bash(gh repo:*)"
+      "Bash(gh repo:*)",
+      "Bash(cd:*)",
+      "Bash(\\\\ curl:*)"
     ]
   }
 }

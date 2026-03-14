@@ -19,7 +19,7 @@ function renderResources(activeTag = "all") {
     card.target = "_blank";
 
     card.innerHTML = `
-      ${resource.cover ? `<img src="${resource.cover}" alt="${resource.title}" onerror="this.classList.add('hidden')">` : ""}
+      ${resource.cover ? `<img src="assets/covers/${resource.cover}" alt="${resource.title}" onerror="this.parentElement.classList.add('no-cover'); this.remove()">` : ""}
       <div class="resource-overlay${resource.cover ? "" : " always-visible"}" data-tag="${resource.tag}">
         <span class="tag tag-${resource.tag}">${resource.tag}</span>
         <div class="resource-title">${resource.title}</div>
