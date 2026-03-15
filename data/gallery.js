@@ -6,5 +6,13 @@ const GALLERY = [
     medium: "digital",
     github: "honeyraut"
   },
+
+  {
+    title: "flowers",
+    artist: "Tash Rumbens",
+    file: "tash.png",      
+    medium: "digital",
+    github: "nrumbens"
+  },
   // --- copy the block above, fill in your info, and add it here! ---
 ];
