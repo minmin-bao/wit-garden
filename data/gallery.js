@@ -22,4 +22,12 @@ const GALLERY = [
     github: "email.raniaamanda@gmail.com"
   },
   // --- copy the block above, fill in your info, and add it here! ---
+
+  {
+    title: "sun",
+    artist: "Alina Noor",
+    file: "alina-sun.png",      
+    medium: "digital",
+    github: "aloonsballoons"
+  },
 ];
