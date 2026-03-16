@@ -14,5 +14,12 @@ const GALLERY = [
     medium: "digital",
     github: "nrumbens"
   },
+    {
+    title: "withub",
+    artist: "Rania Amanda",
+    file: "rania.jpeg",      
+    medium: "digital",
+    github: "email.raniaamanda@gmail.com"
+  },
   // --- copy the block above, fill in your info, and add it here! ---
 ];
