@@ -39,6 +39,13 @@ const GALLERY = [
     github: "minmin-bao"
     },
   {
+    title: "garden",
+    artist: "Taryn Martenstyn",
+    file: "witdrawing.jpg",      
+    medium: "digital",
+    github: "taryn-ayanna"
+  },
+  {
     title: "heart",
     artist: "Dimple Rana",
     file: "git_1.png",      
