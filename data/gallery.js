@@ -30,4 +30,18 @@ const GALLERY = [
     medium: "digital",
     github: "aloonsballoons"
   },
+  {
+    title: "heart",
+    artist: "Dimple Rana",
+    file: "git_1.png",      
+    medium: "digital",
+    github: "dimplerana415"
+  },
+  {
+    title: "cat",
+    artist: "Dimple Rana",
+    file: "git_2.png",      
+    medium: "digital",
+    github: "dimplerana415"
+  }
 ];
